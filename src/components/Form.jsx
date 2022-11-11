@@ -9,7 +9,7 @@ const Form = ({addTask}) => {
         e.preventDefault();
         addTask(userInput);
         setUserInput(addTask);
-        
+        setUserInput("");
     }
 
     return (
